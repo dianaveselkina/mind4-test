@@ -146,7 +146,7 @@ nav {
   border-top: 1px solid #e7bda6;
   display: flex;
   flex-direction: row;
-  margin-top: 110px;
+  margin-top: 90px;
 }
 .home__button,
 .orders__button {
