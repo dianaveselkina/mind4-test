@@ -4,12 +4,16 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Journal Sans New, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-body {
+@font-face {
+  font-family: 'Journal Sans New';
+  src: url('@/assets/fonts/journal-sans-new.ttf') format('truetype');
+}
+s body {
   max-width: 1800px;
   margin: 50px auto;
 }

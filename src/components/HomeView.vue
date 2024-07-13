@@ -26,13 +26,17 @@ const router = useRouter();
   background-color: #496172;
 }
 .service__button {
+  cursor: pointer;
   width: 363px;
   height: 60px;
   border-radius: 12px;
   margin-top: 20px;
   color: #415263;
+  font-family: Journal Sans New;
+  font-size: 18px;
 }
 h1 {
+  font-family: Journal Sans New;
   font-size: 32px;
   color: #fff;
   padding-top: 39px;
@@ -43,7 +47,7 @@ nav {
   border-top: 1px solid #e7bda6;
   display: flex;
   flex-direction: row;
-  margin-top: 561px;
+  margin-top: 556px;
 }
 .home__button,
 .orders__button {
@@ -55,6 +59,7 @@ nav {
   width: 177px;
   height: 82px;
   border: none;
+  font-family: Journal Sans New;
   font-size: 18px;
 }
 .home__button {
